@@ -4,7 +4,6 @@ import { UsersModule } from "../users/users.module";
 import { PassportModule } from "@nestjs/passport";
 import { LocalStrategy } from "./local.strategy";
 import { UsersService } from "../users/users.service";
-import { SessionSerializer } from "./session.serializer";
 import { JwtModule } from "@nestjs/jwt";
 import { JwtStrategy } from "./jwt.strategy";
 
